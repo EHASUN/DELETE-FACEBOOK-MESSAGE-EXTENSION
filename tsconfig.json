@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "target": "es6",                        // Target JavaScript version (ES6)
+      "module": "commonjs",                   // Module system (CommonJS for Node.js style)
+      "moduleResolution": "node",             // Module resolution strategy
+      "strict": true,                         // Enables strict type checking
+      "esModuleInterop": true,                // Enable compatibility for importing non-ESM modules
+      "skipLibCheck": true,                   // Skip type checking of declaration files
+      "types": ["chrome"]                     // Add types for Chrome extensions
+    },
+    "include": [
+      "src/**/*.ts"                           // Include all TypeScript files inside the src/ folder
+    ],
+    "exclude": [
+      "node_modules"                          // Exclude node_modules folder
+    ]
+  }
+  
